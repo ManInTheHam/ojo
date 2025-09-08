@@ -4,7 +4,7 @@ Ojo is a modern blogging platform built with a **Next.js frontend**, a **Go back
 The project is **still in progress** – the frontend is functional, while the backend and database integration are under development.
 The goal of Ojo is to provide a minimal, fast, and scalable platform for creating and sharing blogs.
 
----
+
 
 ## 🚀 Features
 - ✨ Clean and responsive **Next.js frontend**
@@ -14,7 +14,7 @@ The goal of Ojo is to provide a minimal, fast, and scalable platform for creatin
 - 🔐 User authentication and role-based access (planned)
 - 📝 Markdown support for blog posts (planned)
 
----
+
 
 ## 🏗️ Tech Stack
 **Frontend**
@@ -29,15 +29,16 @@ The goal of Ojo is to provide a minimal, fast, and scalable platform for creatin
 - PostgreSQL – Relational database
 - GORM / SQLC (TBD) – ORM or query builder
 
----
+
 
 ## 📂 Project Structure
+```bash
 ojo/
 ├── frontend/ # Next.js app
 ├── backend/ # Go backend
 └── database/ # SQL migrations / schema
+```
 
---
 
 ## ⚙️ Getting Started
 
@@ -70,11 +71,9 @@ DB_PORT=5432
 
 ## 📌 Roadmap
 
-- Authentication & Authorization
 - Blog post creation, editing, deletion
 - Rich text & Markdown support
 - Tags and categories
-- Comments system
 - Deployment with Docker & CI/CD
 
  ## 🤝 Contributing
